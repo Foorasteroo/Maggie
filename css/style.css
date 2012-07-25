@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Emilys+Candy|Henny+Penny|Pacifico|Volkhov:400italic|Lobster|Calligraffitti|Alex+Brush);
+/* Lobster|Calligraffitti */
+* {margin: 0;}
+body {
+	background-color: #000000;
+	color: #fff;
+	font-family: 'Segoe UI',Helvetica, arial;
+	font-size:18px;
+	margin:0;
+	overflow: hidden;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+
+::-moz-selection,
+::selection {
+	color: #EF2F93;
+	background: transparent;
+}
+div#main {
+	margin:0 auto 0;
+	position: relative;
+}
+	div#magia0 {
+		background:
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/moon.png) no-repeat top right,
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+	}
+	#magia0 ::-moz-selection,
+	#magia0 ::selection {
+	color: #fff04c;
+	background: transparent;
+}
+		div#home {
+			-webkit-animation-name: entrada;
+			-webkit-animation-duration: 5s;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-delay:0s;
+			-webkit-animation-iteration-count: 1;
+			-webkit-animation-direction: normal;
+			-webkit-animation-play-state: running;
+			
+		}
+
+			#thename, p#description {
+
+				-moz-animation-name: brillo;
+				-moz-animation-duration: 2s;
+				-moz-animation-timing-function: linear;
+				-moz-animation-delay: 1s;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-direction: alternate;
+				-moz-animation-play-state: running;
+
+				-webkit-animation-name: brillo;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-timing-function: linear;
+				-webkit-animation-delay: 1s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate;
+				-webkit-animation-play-state: running;
+
+				animation-name: brillo;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+				animation-delay: 1s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-play-state: running;
+
+				color: #fff;
+				font-family:'Henny Penny', Helvetica, arial;
+				font-size:5em;
+				position:relative;
+				text-align:center;
+				z-index:10;
+			}
+			#thename {
+				margin: 80px auto 0;
+			}
+
+			p#description {
+				color: #fff;
+				font-family:'Emilys Candy', Helvetica, arial;
+				font-size:2.5em;
+				position:relative;
+				text-align:center;
+				text-shadow: 0 0 1px #fff;
+				z-index:10;
+			}
+		.butterfly {
+			background:url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/butterfly.png) center no-repeat;
+			height:30px;
+			position: absolute;
+			width:35px;
+		}
+			#butterfly0 { bottom:200px; left:100px;}
+			#butterfly1 { bottom:150px; left:400px;}
+			#butterfly2 { bottom:180px; left:700px;}
+			#butterfly3 { bottom:250px; left:850px;}
+			#butterfly4 { bottom:100px; left:950px;}
+			#butterfly5 { bottom:168px; right:100px;}
+
+		#player0 {
+			position: absolute;
+			bottom:2px;
+			left:2px;
+		}
+
+	div#magia1 {
+		background:
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+	}
+	div#magia2 {
+		background-size: cover;
+		background:url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/skyheaven.jpg) bottom center no-repeat;
+	}
+		#magia2-title {
+			color:#fff;
+			font-family:'Alex Brush', 'Segoe Ui', Helvetica, arial;
+			font-size:5em;
+			margin: 1em 0 0;
+			text-align:center;
+		}
+	div#magia3 {
+		background:
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
+			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+	}
+.post{
+	background-color:#fff;
+	background-color:rgba(255,255,255,.95);
+	color: #292929;
+	box-shadow:0px 0px 20px #fff;
+	border-radius:10px;
+	font-family:'Volkhov','Andika','Segoe UI', Helvetica, arial;
+	font-style:italic;
+	margin:2em auto;
+	max-width:600px;
+	padding: 20px;
+}
+	.post-date {
+		font-size:.8em;
+		color:#999;
+		margin:0;
+		text-align: right;
+	}
+	.post-title {
+		font-family:'Pacifico', 'Segoe UI', Helvetica, arial;
+		font-weight:normal;
+		font-size:2.4em;
+		margin: 0 0 .5em;
+		text-align:center;
+	}
+	.audio-item {
+		padding: 20px 0px;
+		text-align:center;
+	}
+.post-invisible{ background-color: none;}

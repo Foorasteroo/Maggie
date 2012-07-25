@@ -1,0 +1,47 @@
+/*----------------------------------------------
+*  Animacion de brillo
+----------------------------------------------*/
+@-moz-keyframes brillo {
+	0% {
+		text-shadow:0 0 0 #fff;
+	}
+	100% {
+		text-shadow:0 0 30px #f2e876;
+	}
+}
+@-webkit-keyframes brillo {
+	0% {
+		text-shadow:0 0 0 #fff;
+	}
+	100% {
+		text-shadow:0 0 30px #f2e876;
+	}
+}
+/*----------------------------------------------
+*  Animacion de entrada
+----------------------------------------------*/
+@-webkit-keyframes entrada {
+	0% {opacity:0;}
+	50% {opacity:.25;}
+	100% {opacity:1;}
+}
+
+/*----------------------------------------------
+*  Animacion de plasmas
+----------------------------------------------*/
+@-moz-keyframes plasmamotion {
+	0% {
+		-moz-transform:scale(.9,.9);
+	}
+	100% {
+		-moz-transform:scale(1,1);
+	}
+}
+@-webkit-keyframes plasmamotion {
+	0% {
+		-webkit-transform:scale(.9,.9);
+	}
+	100% {
+		-webkit-transform:scale(1,1);
+	}
+}
