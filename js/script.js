@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$('#main').ascensor({
 		AscensorName:'magia',
 		WindowsFocus:true,
-		WindowsOn:2,
+		WindowsOn:0,
 		
 		NavigationDirection:'xy',
 		Direction: 'y',

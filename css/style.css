@@ -24,9 +24,9 @@ div#main {
 }
 	div#magia0 {
 		background:
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/moon.png) no-repeat top right,
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+			url(../imgs/moon.png) no-repeat top right,
+			url(../imgs/bg/grass.png) repeat-x bottom,
+			url(../imgs/bg/space.png);
 	}
 	#magia0 ::-moz-selection,
 	#magia0 ::selection {
@@ -91,7 +91,7 @@ div#main {
 				z-index:10;
 			}
 		.butterfly {
-			background:url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/butterfly.png) center no-repeat;
+			background:url(../imgs/butterfly.png) center no-repeat;
 			height:30px;
 			position: absolute;
 			width:35px;
@@ -111,12 +111,12 @@ div#main {
 
 	div#magia1 {
 		background:
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+			url(../imgs/bg/grass.png) repeat-x bottom,
+			url(../imgs/bg/space.png);
 	}
 	div#magia2 {
+		background:url(../imgs/bg/skyheaven.jpg) bottom center no-repeat;
 		background-size: cover;
-		background:url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/skyheaven.jpg) bottom center no-repeat;
 	}
 		#magia2-title {
 			color:#fff;
@@ -127,8 +127,8 @@ div#main {
 		}
 	div#magia3 {
 		background:
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/grass.png) repeat-x bottom,
-			url(http://dl.dropbox.com/u/27890407/pweb/maggieradi/imgs/bg/space.png);
+			url(../imgs/bg/grass.png) repeat-x bottom,
+			url(../imgs/bg/space.png);
 	}
 .post{
 	background-color:#fff;
